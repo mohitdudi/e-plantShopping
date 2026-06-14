@@ -10,7 +10,7 @@ export default function AboutUs() {
             <h1 className='main-heading'>Welcome to Paradise Nursery</h1>
             <p className='sub-text'>Where Green Meets Serenity</p>
 
-            <Link to="/products">
+            <Link to="/e-plantShopping/products">
             <button className='get-started-btn'>Get Started</button></Link>
         </div>
 

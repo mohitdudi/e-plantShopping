@@ -13,7 +13,9 @@ function Header() {
     <div className='navbar'>
       <div className="logo">
         <div className="logo-wrapper">
-          <img src="https://cdn.pixabay.com/photo/2020/08/05/13/12/eco-5465432_1280.png" alt="" />
+          <Link to="/e-plantShopping/">
+            <img src="https://cdn.pixabay.com/photo/2020/08/05/13/12/eco-5465432_1280.png" alt="" />
+          </Link>
         </div>
 
         <div className="text-wrapper">
