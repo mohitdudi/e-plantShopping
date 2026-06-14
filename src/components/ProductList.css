@@ -1,0 +1,100 @@
+.product-page {
+    background-image: 
+        linear-gradient(rgba(247, 242, 242, 0.9), rgba(248, 245, 245, 0.9)),
+        url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fthumbnails%2F005%2F274%2F861%2Fsmall_2x%2Fgreen-house-with-various-kinds-plant-in-pot-background-nursery-flower-and-plant-growing-for-decorate-in-the-garden-free-photo.JPG&f=1&nofb=1&ipt=46fd4dfbf796bc012909fd77a8763685e934ca5e215548a0d1517e2816a0493b");
+}
+
+
+/* ********************************Navbar*************************************** */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(43, 178, 28);
+    color: white;
+}
+
+.logo {
+    display: flex;
+    padding: 3px;
+}
+
+.text-wrapper {
+    padding: 5px;
+}
+
+.logo img {
+    width: 45px;
+    border-radius: 25px;
+}
+.logo-sub {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.page-head {
+    font-weight: lighter;
+    padding: 10px 0;
+}
+
+.cart-icon {
+    position: relative;
+}
+
+.cart-icon img {
+    width: 70%;
+}
+
+.cart-size {
+    position: absolute;
+    font-size: 20px;
+    top: 12px;
+    right: 39px;
+    font-weight: bold;
+}
+
+/* ******************************** Plant-card ***************************************** */
+.plant-category {
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.category-head {
+    padding: 30px;   
+}
+
+.plant-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.plant-card {
+    width: 350px;
+    height: 300px;
+    box-shadow: h-offset v-offset blur spread color inset;
+    box-shadow: 5px 5px 10px 1px #888888;
+    background-color: white;
+}
+
+.plant-card img {
+    height: 200px;
+    padding: 5px;
+}
+
+.plant-card.sale-icon {
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.add-cart-btn {
+    padding: 5px;
+    background-color: grey;
+    color: white;
+    border: none;
+}

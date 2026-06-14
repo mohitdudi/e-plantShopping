@@ -1,0 +1,59 @@
+.home {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fthumbnails%2F005%2F274%2F861%2Fsmall_2x%2Fgreen-house-with-various-kinds-plant-in-pot-background-nursery-flower-and-plant-growing-for-decorate-in-the-garden-free-photo.JPG&f=1&nofb=1&ipt=46fd4dfbf796bc012909fd77a8763685e934ca5e215548a0d1517e2816a0493b");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+
+}
+
+
+.landing-page {
+    width: 90vw;
+    height: 60vh;
+    margin: 0px auto;
+    padding: 40vh 0;
+
+    color: whitesmoke;    
+    display: grid;
+    grid-template-columns: [left-pane] 30vw [buffer-space] 10vw [right-pane] 40vw;
+    justify-content: center;
+    align-content: center;
+}
+
+.left {
+    text-align: center;
+
+}
+
+.main-heading {
+    /* width: 350px; */
+    padding: 10px 0;
+    font-size: 50px;
+}
+
+.sub-text {
+    padding: 10px 0;
+    font-size: 21px;
+}
+
+.right {
+    font-size: 20px;
+}
+
+.right p {
+    padding: 10px;
+
+}
+
+
+.get-started-btn {
+    background-color: goldenrod;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+    cursor: pointer;
+}
