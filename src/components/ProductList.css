@@ -98,3 +98,7 @@
     color: white;
     border: none;
 }
+
+.add-cart-btn:disabled {
+    background-color: lightgrey;
+}
